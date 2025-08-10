@@ -1,0 +1,98 @@
+{
+  "variables": {
+    "BUSINESS_DOMAIN": {
+      "description": "The business domain for the application",
+      "options": ["ecommerce", "healthcare", "fintech", "education", "saas", "iot", "gaming"],
+      "default": "ecommerce"
+    },
+    "USER_SCALE": {
+      "description": "Expected user scale and concurrent usage",
+      "options": {
+        "small": {
+          "users": 10,
+          "concurrent": 5,
+          "description": "Small team/pilot project"
+        },
+        "medium": {
+          "users": 1000,
+          "concurrent": 100,
+          "description": "Growing business"
+        },
+        "large": {
+          "users": 100000,
+          "concurrent": 10000,
+          "description": "Enterprise scale"
+        }
+      },
+      "default": "medium"
+    },
+    "INFRASTRUCTURE": {
+      "description": "Cloud infrastructure provider",
+      "options": {
+        "aws": {
+          "name": "Amazon Web Services",
+          "services": ["EC2", "RDS", "ElastiCache", "S3", "CloudWatch"],
+          "cost_multiplier": 1.0
+        },
+        "gcp": {
+          "name": "Google Cloud Platform", 
+          "services": ["Compute Engine", "Cloud SQL", "Memorystore", "Cloud Storage", "Stackdriver"],
+          "cost_multiplier": 0.9
+        },
+        "azure": {
+          "name": "Microsoft Azure",
+          "services": ["Virtual Machines", "Azure Database", "Azure Cache", "Blob Storage", "Monitor"],
+          "cost_multiplier": 1.1
+        }
+      },
+      "default": "aws"
+    },
+    "BUDGET_CONSTRAINTS": {
+      "description": "Monthly budget constraints in USD",
+      "options": {
+        "startup": {
+          "budget": 500,
+          "description": "Bootstrap/MVP budget"
+        },
+        "growth": {
+          "budget": 2000,
+          "description": "Growth stage budget"
+        },
+        "enterprise": {
+          "budget": 10000,
+          "description": "Enterprise budget"
+        }
+      },
+      "default": "growth"
+    },
+    "COMPLIANCE_REQUIREMENTS": {
+      "description": "Regulatory compliance requirements",
+      "options": {
+        "basic": ["GDPR"],
+        "healthcare": ["HIPAA", "GDPR"],
+        "financial": ["PCI-DSS", "SOX", "GDPR"],
+        "government": ["FedRAMP", "FISMA", "GDPR"]
+      },
+      "default": "basic"
+    }
+  },
+  "templates": {
+    "environment_config": {
+      "development": {
+        "NODE_ENV": "development",
+        "LOG_LEVEL": "debug",
+        "RATE_LIMIT": "100"
+      },
+      "staging": {
+        "NODE_ENV": "staging", 
+        "LOG_LEVEL": "info",
+        "RATE_LIMIT": "1000"
+      },
+      "production": {
+        "NODE_ENV": "production",
+        "LOG_LEVEL": "warn", 
+        "RATE_LIMIT": "10000"
+      }
+    }
+  }
+}
