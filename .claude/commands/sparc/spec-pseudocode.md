@@ -32,22 +32,19 @@ mcp__claude-flow__sparc_mode {
 ### Option 2: Using NPX CLI (Fallback when MCP not available)
 ```bash
 # Use when running from terminal or MCP tools unavailable
-npx claude-flow sparc run spec-pseudocode "define payment flow requirements"
-
-# For alpha features
-npx claude-flow@alpha sparc run spec-pseudocode "define payment flow requirements"
+npx claude-flow@alpha sparc run spec "define payment flow requirements"
 
 # With namespace
-npx claude-flow sparc run spec-pseudocode "your task" --namespace spec-pseudocode
+npx claude-flow@alpha sparc run spec "your task" --namespace spec-pseudocode
 
 # Non-interactive mode
-npx claude-flow sparc run spec-pseudocode "your task" --non-interactive
+npx claude-flow@alpha sparc run spec "your task" --non-interactive
 ```
 
 ### Option 3: Local Installation
 ```bash
 # If claude-flow is installed locally
-./claude-flow sparc run spec-pseudocode "define payment flow requirements"
+./claude-flow@alpha sparc run spec "define payment flow requirements"
 ```
 
 ## Memory Integration
@@ -73,8 +70,8 @@ mcp__claude-flow__memory_search {
 ### Using NPX CLI (Fallback)
 ```bash
 # Store mode-specific context
-npx claude-flow memory store "spec-pseudocode_context" "important decisions" --namespace spec-pseudocode
+npx claude-flow@alpha memory store "spec-pseudocode_context" "important decisions" --namespace spec-pseudocode
 
 # Query previous work
-npx claude-flow memory query "spec-pseudocode" --limit 5
+npx claude-flow@alpha memory query "spec-pseudocode" --limit 5
 ```

@@ -49,22 +49,19 @@ mcp__claude-flow__sparc_mode {
 ### Option 2: Using NPX CLI (Fallback when MCP not available)
 ```bash
 # Use when running from terminal or MCP tools unavailable
-npx claude-flow sparc run ask "help me choose the right mode"
-
-# For alpha features
 npx claude-flow@alpha sparc run ask "help me choose the right mode"
 
 # With namespace
-npx claude-flow sparc run ask "your task" --namespace ask
+npx claude-flow@alpha sparc run ask "your task" --namespace ask
 
 # Non-interactive mode
-npx claude-flow sparc run ask "your task" --non-interactive
+npx claude-flow@alpha sparc run ask "your task" --non-interactive
 ```
 
 ### Option 3: Local Installation
 ```bash
 # If claude-flow is installed locally
-./claude-flow sparc run ask "help me choose the right mode"
+./claude-flow@alpha sparc run ask "help me choose the right mode"
 ```
 
 ## Memory Integration
@@ -90,8 +87,8 @@ mcp__claude-flow__memory_search {
 ### Using NPX CLI (Fallback)
 ```bash
 # Store mode-specific context
-npx claude-flow memory store "ask_context" "important decisions" --namespace ask
+npx claude-flow@alpha memory store "ask_context" "important decisions" --namespace ask
 
 # Query previous work
-npx claude-flow memory query "ask" --limit 5
+npx claude-flow@alpha memory query "ask" --limit 5
 ```

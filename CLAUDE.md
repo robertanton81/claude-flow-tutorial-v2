@@ -33,15 +33,15 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 ## SPARC Commands
 
 ### Core Commands
-- `npx claude-flow sparc modes` - List available modes
-- `npx claude-flow sparc run <mode> "<task>"` - Execute specific mode
-- `npx claude-flow sparc tdd "<feature>"` - Run complete TDD workflow
-- `npx claude-flow sparc info <mode>` - Get mode details
+- `npx claude-flow@alpha sparc modes` - List available modes
+- `npx claude-flow@alpha sparc run <mode> "<task>"` - Execute specific mode
+- `npx claude-flow@alpha sparc tdd "<feature>"` - Run complete TDD workflow
+- `npx claude-flow@alpha sparc info <mode>` - Get mode details
 
 ### Batchtools Commands
-- `npx claude-flow sparc batch <modes> "<task>"` - Parallel execution
-- `npx claude-flow sparc pipeline "<task>"` - Full pipeline processing
-- `npx claude-flow sparc concurrent <mode> "<tasks-file>"` - Multi-task processing
+- `npx claude-flow@alpha sparc batch <modes> "<task>"` - Parallel execution
+- `npx claude-flow@alpha sparc pipeline "<task>"` - Full pipeline processing
+- `npx claude-flow@alpha sparc concurrent <mode> "<tasks-file>"` - Multi-task processing
 
 ### Build Commands
 - `npm run build` - Build project
@@ -51,11 +51,11 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 
 ## SPARC Workflow Phases
 
-1. **Specification** - Requirements analysis (`sparc run spec-pseudocode`)
-2. **Pseudocode** - Algorithm design (`sparc run spec-pseudocode`)
-3. **Architecture** - System design (`sparc run architect`)
-4. **Refinement** - TDD implementation (`sparc tdd`)
-5. **Completion** - Integration (`sparc run integration`)
+1. **Specification** - Requirements analysis (`npx claude-flow@alpha sparc run spec`)
+2. **Pseudocode** - Algorithm design (`npx claude-flow@alpha sparc run spec`)
+3. **Architecture** - System design (`npx claude-flow@alpha sparc run architect`)
+4. **Refinement** - TDD implementation (`npx claude-flow@alpha sparc tdd`)
+5. **Completion** - Integration (`npx claude-flow@alpha sparc run integration`)
 
 ## Code Style & Best Practices
 

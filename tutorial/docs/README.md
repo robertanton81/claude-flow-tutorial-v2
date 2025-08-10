@@ -52,13 +52,13 @@ claude mcp add claude-flow npx claude-flow@alpha mcp start
 
 ```bash
 # Initialize a basic swarm
-npx claude-flow sparc run init "Create a hello world swarm"
+npx claude-flow@alpha sparc run init "Create a hello world swarm"
 
 # Check swarm status
-npx claude-flow status
+npx claude-flow@alpha status
 
 # Run a simple task
-npx claude-flow sparc tdd "Create a greeting function"
+npx claude-flow@alpha sparc tdd "Create a greeting function"
 ```
 
 ### 3. Verify Installation

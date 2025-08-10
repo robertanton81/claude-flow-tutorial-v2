@@ -61,22 +61,19 @@ mcp__claude-flow__sparc_mode {
 ### Option 2: Using NPX CLI (Fallback when MCP not available)
 ```bash
 # Use when running from terminal or MCP tools unavailable
-npx claude-flow sparc run devops "deploy to AWS Lambda"
-
-# For alpha features
 npx claude-flow@alpha sparc run devops "deploy to AWS Lambda"
 
 # With namespace
-npx claude-flow sparc run devops "your task" --namespace devops
+npx claude-flow@alpha sparc run devops "your task" --namespace devops
 
 # Non-interactive mode
-npx claude-flow sparc run devops "your task" --non-interactive
+npx claude-flow@alpha sparc run devops "your task" --non-interactive
 ```
 
 ### Option 3: Local Installation
 ```bash
 # If claude-flow is installed locally
-./claude-flow sparc run devops "deploy to AWS Lambda"
+./claude-flow@alpha sparc run devops "deploy to AWS Lambda"
 ```
 
 ## Memory Integration
@@ -102,8 +99,8 @@ mcp__claude-flow__memory_search {
 ### Using NPX CLI (Fallback)
 ```bash
 # Store mode-specific context
-npx claude-flow memory store "devops_context" "important decisions" --namespace devops
+npx claude-flow@alpha memory store "devops_context" "important decisions" --namespace devops
 
 # Query previous work
-npx claude-flow memory query "devops" --limit 5
+npx claude-flow@alpha memory query "devops" --limit 5
 ```

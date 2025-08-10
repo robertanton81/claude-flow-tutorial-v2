@@ -35,22 +35,19 @@ mcp__claude-flow__sparc_mode {
 ### Option 2: Using NPX CLI (Fallback when MCP not available)
 ```bash
 # Use when running from terminal or MCP tools unavailable
-npx claude-flow sparc run tdd "create user authentication tests"
-
-# For alpha features
 npx claude-flow@alpha sparc run tdd "create user authentication tests"
 
 # With namespace
-npx claude-flow sparc run tdd "your task" --namespace tdd
+npx claude-flow@alpha sparc run tdd "your task" --namespace tdd
 
 # Non-interactive mode
-npx claude-flow sparc run tdd "your task" --non-interactive
+npx claude-flow@alpha sparc run tdd "your task" --non-interactive
 ```
 
 ### Option 3: Local Installation
 ```bash
 # If claude-flow is installed locally
-./claude-flow sparc run tdd "create user authentication tests"
+./claude-flow@alpha sparc run tdd "create user authentication tests"
 ```
 
 ## Memory Integration
@@ -76,8 +73,8 @@ mcp__claude-flow__memory_search {
 ### Using NPX CLI (Fallback)
 ```bash
 # Store mode-specific context
-npx claude-flow memory store "tdd_context" "important decisions" --namespace tdd
+npx claude-flow@alpha memory store "tdd_context" "important decisions" --namespace tdd
 
 # Query previous work
-npx claude-flow memory query "tdd" --limit 5
+npx claude-flow@alpha memory query "tdd" --limit 5
 ```
