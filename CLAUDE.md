@@ -65,34 +65,104 @@ This project uses SPARC (Specification, Pseudocode, Architecture, Refinement, Co
 - **Clean Architecture**: Separate concerns
 - **Documentation**: Keep updated
 
-## 🚀 Available Agents (54 Total)
+## 🚀 Available Agents (49 Total)
 
-### Core Development
-`coder`, `reviewer`, `tester`, `planner`, `researcher`
+### 🔧 Core Development (5 agents)
+- **`coder`** - Primary implementation agent for writing production code, implementing features, and handling core programming tasks
+- **`reviewer`** - Code quality specialist focused on security, performance, maintainability, and best practices review
+- **`tester`** - Unit testing expert creating comprehensive test suites, test cases, and ensuring code coverage
+- **`planner`** - Project planning and task breakdown specialist, creates roadmaps and coordinates development phases
+- **`researcher`** - Requirements analysis and technical research agent for investigating solutions and technologies
 
-### Swarm Coordination
-`hierarchical-coordinator`, `mesh-coordinator`, `adaptive-coordinator`, `collective-intelligence-coordinator`, `swarm-memory-manager`
+### 🎛️ Swarm Coordination (5 agents)
+- **`hierarchical-coordinator`** - Manages tree-structured agent hierarchies with clear command chains and delegation
+- **`mesh-coordinator`** - Coordinates peer-to-peer agent networks with distributed decision making
+- **`adaptive-coordinator`** - Dynamic coordination that adjusts topology and strategies based on workload
+- **`collective-intelligence-coordinator`** - Aggregates knowledge and decisions from multiple agents for optimal outcomes
+- **`swarm-memory-manager`** - Manages shared memory, context, and knowledge distribution across agent networks
 
-### Consensus & Distributed
-`byzantine-coordinator`, `raft-manager`, `gossip-coordinator`, `consensus-builder`, `crdt-synchronizer`, `quorum-manager`, `security-manager`
+### 🔗 Consensus & Distributed (7 agents)
+- **`byzantine-coordinator`** - Handles fault-tolerant consensus in untrusted distributed environments
+- **`raft-manager`** - Implements Raft consensus protocol for leader election and log replication
+- **`gossip-coordinator`** - Manages information propagation through gossip protocols in large networks
+- **`consensus-builder`** - General consensus mechanism coordinator for group decision making
+- **`crdt-synchronizer`** - Handles conflict-free replicated data types for distributed state management
+- **`quorum-manager`** - Manages voting and quorum-based decisions in distributed systems
+- **`security-manager`** - Security-focused agent for access control, authentication, and threat detection
 
-### Performance & Optimization
-`perf-analyzer`, `performance-benchmarker`, `task-orchestrator`, `memory-coordinator`, `smart-agent`
+### ⚡ Performance & Optimization (5 agents)
+- **`perf-analyzer`** - Real-time performance monitoring and bottleneck identification specialist
+- **`performance-benchmarker`** - Automated performance testing and benchmarking across different scenarios
+- **`task-orchestrator`** - Optimizes task distribution and execution scheduling for maximum efficiency
+- **`memory-coordinator`** - Memory usage optimization and resource allocation management
+- **`smart-agent`** - AI-enhanced agent with adaptive learning and intelligent decision making capabilities
 
-### GitHub & Repository
-`github-modes`, `pr-manager`, `code-review-swarm`, `issue-tracker`, `release-manager`, `workflow-automation`, `project-board-sync`, `repo-architect`, `multi-repo-swarm`
+### 🐙 GitHub & Repository (9 agents)
+- **`github-modes`** - Multi-mode GitHub operations handler for various repository management tasks
+- **`pr-manager`** - Pull request lifecycle management including reviews, merges, and conflict resolution
+- **`code-review-swarm`** - Distributed code review system with multiple specialized reviewers
+- **`issue-tracker`** - GitHub issue management, triage, labeling, and workflow automation
+- **`release-manager`** - Release planning, versioning, changelog generation, and deployment coordination
+- **`workflow-automation`** - GitHub Actions and CI/CD workflow creation and management
+- **`project-board-sync`** - Project board synchronization and agile workflow management
+- **`repo-architect`** - Repository structure design and multi-repository architecture planning
+- **`multi-repo-swarm`** - Coordinates operations across multiple related repositories
 
-### SPARC Methodology
-`sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`, `refinement`
+### 📋 SPARC Methodology (6 agents)
+- **`sparc-coord`** - SPARC methodology coordinator ensuring proper phase execution and transitions
+- **`sparc-coder`** - SPARC-specialized coder implementing the Refinement and Completion phases
+- **`specification`** - Requirements gathering and specification writing specialist
+- **`pseudocode`** - Algorithm design and pseudocode creation expert
+- **`architecture`** - System architecture design and technical specification creator
+- **`refinement`** - TDD implementation and iterative refinement specialist
 
-### Specialized Development
-`backend-dev`, `mobile-dev`, `ml-developer`, `cicd-engineer`, `api-docs`, `system-architect`, `code-analyzer`, `base-template-generator`
+### 🏗️ Specialized Development (8 agents)
+- **`backend-dev`** - Backend services, APIs, databases, and server-side logic specialist
+- **`mobile-dev`** - Mobile application development for iOS, Android, and cross-platform solutions
+- **`ml-developer`** - Machine learning, AI model development, and data science specialist
+- **`cicd-engineer`** - CI/CD pipeline design, DevOps automation, and deployment specialist
+- **`api-docs`** - API documentation, OpenAPI specs, and developer documentation creator
+- **`system-architect`** - Large-scale system design and infrastructure architecture planning
+- **`code-analyzer`** - Static code analysis, code quality metrics, and technical debt assessment
+- **`base-template-generator`** - Project scaffolding and boilerplate code generation specialist
 
-### Testing & Validation
-`tdd-london-swarm`, `production-validator`
+### 🧪 Testing & Validation (2 agents)
+- **`tdd-london-swarm`** - Test-Driven Development using London School methodology with mocks and stubs
+- **`production-validator`** - Production readiness validation, performance testing, and deployment verification
 
-### Migration & Planning
-`migration-planner`, `swarm-init`
+### 🔄 Migration & Planning (2 agents)
+- **`migration-planner`** - Legacy system migration planning and execution strategy development
+- **`swarm-init`** - Swarm initialization and configuration management for optimal agent deployment
+
+## 🎯 Quick Agent Selection Guide
+
+### For New Projects
+1. **Start Here**: `planner` → `researcher` → `coder` → `tester` → `reviewer`
+2. **SPARC Workflow**: `specification` → `pseudocode` → `architecture` → `refinement`
+3. **Setup**: `swarm-init` → `hierarchical-coordinator`
+
+### For Existing Projects  
+- **Bug Fixes**: `code-analyzer` → `coder` → `tester`
+- **New Features**: `researcher` → `coder` → `code-review-swarm`
+- **Performance Issues**: `perf-analyzer` → `performance-benchmarker`
+- **Refactoring**: `system-architect` → `coder` → `reviewer`
+
+### For Specialized Tasks
+- **API Development**: `backend-dev` → `api-docs` → `tester`
+- **Mobile Apps**: `mobile-dev` → `code-analyzer` → `production-validator`
+- **Machine Learning**: `ml-developer` → `code-analyzer` → `performance-benchmarker`
+- **CI/CD Setup**: `cicd-engineer` → `workflow-automation` → `production-validator`
+
+### For Repository Management
+- **Code Reviews**: `pr-manager` → `code-review-swarm` → `reviewer`
+- **Release Process**: `release-manager` → `production-validator`
+- **Issue Management**: `issue-tracker` → `project-board-sync`
+- **Multi-Repo**: `multi-repo-swarm` → `repo-architect`
+
+### For Large Teams
+- **Coordination**: `collective-intelligence-coordinator` → `mesh-coordinator`
+- **Consensus**: `consensus-builder` → `quorum-manager`
+- **Memory Management**: `swarm-memory-manager` → `memory-coordinator`
 
 ## 🎯 Claude Code vs MCP Tools
 
