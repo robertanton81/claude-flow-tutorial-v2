@@ -29,7 +29,9 @@ Claude-Flow is a cutting-edge AI swarm orchestration framework that enables coor
 |------------------------|----------------------|------------------|
 | [⚡ DO FIRST - Setup Guide](tutorial/DO-FIRST-README.md) | [📋 Master Setup Guide](docs/MASTER-SETUP-GUIDE.md) | [🧠 Neural Training](examples/04-neural-training.js) |
 | [🎯 Quick Start Checklist](tutorial/QUICK-START-CHECKLIST.md) | [📚 SPARC Tutorial](tutorial/docs/SPARC-TUTORIAL.md) | [🤝 Consensus Voting](examples/06-consensus-voting.js) |
-| [👨‍💻 First Time User Guide](tutorial/FIRST-TIME-USER-GUIDE.md) | [📊 Documentation Audit](docs/DOCUMENTATION_AUDIT_REPORT.md) | [⚡ Performance Optimization](examples/07-performance-optimization.js) |
+| [👨‍💻 First Time User Guide](tutorial/FIRST-TIME-USER-GUIDE.md) | [🧪 SPARC TDD Guide](docs/SPARC-TDD-GUIDE.md) | [⚡ Performance Optimization](examples/07-performance-optimization.js) |
+| | [🎯 Advanced Patterns](docs/SPARC-ADVANCED-PATTERNS.md) | [🚀 Hello World SPARC](examples/hello-world-sparc.js) |
+| | [📊 Documentation Audit](docs/DOCUMENTATION_AUDIT_REPORT.md) | |
 
 ## 🚨 Quick Start (5 Minutes)
 
@@ -151,7 +153,7 @@ npx claude-flow sparc run integration "Deploy and test complete system"
 ### 🧠 SPARC Methodology
 `sparc-coord`, `sparc-coder`, `specification`, `pseudocode`, `architecture`, `refinement`
 
-[View complete agent list →](CLAUDE.md#-available-agents-54-total)
+[View complete agent list →](CLAUDE.md#available-agents-54-total)
 
 ## 🔗 Integration Ecosystem
 
@@ -195,16 +197,20 @@ npx claude-flow github pr manage --repo owner/project --action review --pr 123
 1. **[Parallel Execution](tutorial/examples/02-parallel-execution.js)** - Concurrent processing
 2. **[Memory Management](tutorial/examples/03-memory-management.js)** - Persistent context
 3. **[SPARC Methodology](tutorial/examples/08-sparc-methodology.js)** - Complete workflow
+4. **[SPARC TDD Guide](docs/SPARC-TDD-GUIDE.md)** - Test-driven development mastery
 
 ### 🥉 Advanced (4+ hours)
-1. **[Neural Training](tutorial/examples/04-neural-training.js)** - AI model optimization
-2. **[Consensus Voting](tutorial/examples/06-consensus-voting.js)** - Distributed decisions
-3. **[Complete Project](tutorial/examples/09-complete-project.js)** - Full-scale application
+1. **[SPARC Advanced Patterns](docs/SPARC-ADVANCED-PATTERNS.md)** - Enterprise architecture patterns
+2. **[Neural Training](tutorial/examples/04-neural-training.js)** - AI model optimization
+3. **[Consensus Voting](tutorial/examples/06-consensus-voting.js)** - Distributed decisions
+4. **[Complete Project](tutorial/examples/09-complete-project.js)** - Full-scale application
 
 ## 🌟 Community & Support
 
 ### 📞 Get Help
 - **Documentation**: [Master Setup Guide](docs/MASTER-SETUP-GUIDE.md)
+- **TDD Guide**: [SPARC TDD Guide](docs/SPARC-TDD-GUIDE.md)
+- **Advanced Patterns**: [SPARC Advanced Patterns](docs/SPARC-ADVANCED-PATTERNS.md)
 - **Issues**: [GitHub Issues](https://github.com/ruvnet/claude-flow/issues)
 - **Examples**: [Tutorial Examples](tutorial/examples/)
 - **Discord**: [Claude-Flow Community](https://discord.gg/claude-flow)

@@ -4,7 +4,7 @@
 
 ### Table of Contents
 
-1. [Introduction to SPARC](#introduction)
+1. [Introduction to SPARC](#introduction-to-sparc)
 2. [Conceptual Overview](#conceptual-overview)
 3. [Core Principles](#core-principles)
 4. [Phase 1: Specification](#phase-1-specification)
@@ -12,13 +12,13 @@
 6. [Phase 3: Architecture](#phase-3-architecture)
 7. [Phase 4: Refinement](#phase-4-refinement)
 8. [Phase 5: Completion](#phase-5-completion)
-9. [Advanced SPARC Patterns](#advanced-patterns)
-10. [Real-World Case Studies](#case-studies)
-11. [SPARC Commands Reference](#commands-reference)
+9. [Advanced SPARC Patterns](#advanced-sparc-patterns)
+10. [Real-World Case Studies](#real-world-case-studies)
+11. [SPARC Commands Reference](#sparc-commands-reference)
 
 ---
 
-## Introduction to SPARC {#introduction}
+## Introduction to SPARC
 
 SPARC (Specification, Pseudocode, Architecture, Refinement, Completion) is a systematic development methodology that ensures high-quality software delivery through structured phases and Test-Driven Development (TDD).
 
@@ -42,7 +42,7 @@ Completion → Production Ready
 
 ---
 
-## Conceptual Overview {#conceptual-overview}
+## Conceptual Overview
 
 ### What is SPARC Methodology?
 
@@ -266,7 +266,7 @@ Ready to implement SPARC? The following sections provide detailed implementation
 
 ---
 
-## Core Principles {#core-principles}
+## Core Principles
 
 ### 1. Iterative Development
 Each phase builds upon the previous, with feedback loops for continuous improvement.
@@ -285,7 +285,7 @@ Validate each phase before proceeding to the next.
 
 ---
 
-## Phase 1: SPECIFICATION {#phase-1-specification}
+## Phase 1: SPECIFICATION
 
 ### Overview
 The Specification phase transforms requirements into clear, actionable specifications.
@@ -401,7 +401,7 @@ specification:
 
 ---
 
-## Phase 2: PSEUDOCODE {#phase-2-pseudocode}
+## Phase 2: PSEUDOCODE
 
 ### Overview
 Transform specifications into algorithmic logic and data flow.
@@ -552,7 +552,7 @@ npx claude-flow@alpha sparc batch "pseudocode" \
 
 ---
 
-## Phase 3: ARCHITECTURE {#phase-3-architecture}
+## Phase 3: ARCHITECTURE
 
 ### Overview
 Design scalable, maintainable system architecture.
@@ -728,7 +728,7 @@ npx claude-flow@alpha sparc run architect \
 
 ---
 
-## Phase 4: REFINEMENT {#phase-4-refinement}
+## Phase 4: REFINEMENT
 
 ### Overview
 Implement features using Test-Driven Development (TDD).
@@ -963,7 +963,7 @@ npx claude-flow@alpha sparc tdd \
 
 ---
 
-## Phase 5: COMPLETION {#phase-5-completion}
+## Phase 5: COMPLETION
 
 ### Overview
 Finalize the project with integration, documentation, and deployment.
@@ -1164,7 +1164,7 @@ jobs:
 
 ---
 
-## Advanced SPARC Patterns {#advanced-patterns}
+## Advanced SPARC Patterns
 
 ### Pattern 1: Iterative SPARC
 ```bash
@@ -1241,7 +1241,7 @@ const sparcOrchestrator = {
 
 ---
 
-## Real-World Case Studies {#case-studies}
+## Real-World Case Studies
 
 ### Case Study 1: SaaS Platform
 **Project**: Multi-tenant SaaS application
@@ -1272,7 +1272,7 @@ const sparcOrchestrator = {
 
 ---
 
-## SPARC Commands Reference {#commands-reference}
+## SPARC Commands Reference
 
 ### Basic Commands
 ```bash
