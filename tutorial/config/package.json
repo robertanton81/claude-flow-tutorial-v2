@@ -1,0 +1,54 @@
+{
+  "name": "claude-flow-tutorial",
+  "version": "1.0.0",
+  "description": "Comprehensive tutorial for Claude-Flow AI swarm orchestration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/quick-start.js",
+    "examples": "bash scripts/run-all-examples.sh",
+    "example:basic": "node examples/01-basic-swarm.js",
+    "example:parallel": "node examples/02-parallel-execution.js",
+    "example:memory": "node examples/03-memory-management.js",
+    "example:neural": "node examples/04-neural-training.js",
+    "example:github": "node examples/05-github-integration.js",
+    "example:consensus": "node examples/06-consensus-voting.js",
+    "example:performance": "node examples/07-performance-optimization.js",
+    "example:sparc": "node examples/08-sparc-methodology.js",
+    "example:project": "node examples/09-complete-project.js",
+    "test": "echo 'Run examples to test Claude-Flow features'",
+    "docs": "open docs/README.md"
+  },
+  "keywords": [
+    "claude-flow",
+    "ai",
+    "swarm",
+    "orchestration",
+    "mcp",
+    "tutorial",
+    "agents",
+    "neural-networks",
+    "consensus",
+    "github",
+    "sparc"
+  ],
+  "author": "Claude-Flow Team",
+  "license": "MIT",
+  "dependencies": {
+    "claude-flow": "alpha"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruvnet/claude-flow"
+  },
+  "bugs": {
+    "url": "https://github.com/ruvnet/claude-flow/issues"
+  },
+  "homepage": "https://github.com/ruvnet/claude-flow#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
