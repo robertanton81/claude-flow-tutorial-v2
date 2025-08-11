@@ -27,9 +27,9 @@ Claude-Flow is a cutting-edge AI swarm orchestration framework that enables coor
 
 | **🚀 Getting Started** | **📖 Documentation** | **🛠️ Advanced** |
 |------------------------|----------------------|------------------|
-| [⚡ DO FIRST - Setup Guide](tutorial/DO-FIRST-README.md) | [📋 Master Setup Guide](docs/MASTER-SETUP-GUIDE.md) | [🧠 Neural Training](examples/04-neural-training.js) |
-| [🎯 Quick Start Checklist](tutorial/QUICK-START-CHECKLIST.md) | [📚 SPARC Tutorial](tutorial/docs/SPARC-TUTORIAL.md) | [🤝 Consensus Voting](examples/06-consensus-voting.js) |
-| [👨‍💻 First Time User Guide](tutorial/FIRST-TIME-USER-GUIDE.md) | [🧪 SPARC TDD Guide](docs/SPARC-TDD-GUIDE.md) | [⚡ Performance Optimization](examples/07-performance-optimization.js) |
+| [⚡ DO FIRST - Setup Guide](tutorial/DO-FIRST-README.md) | [📋 Master Setup Guide](docs/MASTER-SETUP-GUIDE.md) | [🧠 Neural Training](docs/NEURAL-TRAINING-GUIDE.md) |
+| [🎯 Quick Start Checklist](tutorial/QUICK-START-CHECKLIST.md) | [📚 SPARC Tutorial](tutorial/docs/SPARC-TUTORIAL.md) | [🤝 Consensus Voting](docs/CONSENSUS-VOTING-GUIDE.md) |
+| [👨‍💻 First Time User Guide](tutorial/FIRST-TIME-USER-GUIDE.md) | [🧪 SPARC TDD Guide](docs/SPARC-TDD-GUIDE.md) | [⚡ Performance Optimization](docs/PERFORMANCE-OPTIMIZATION-GUIDE.md) |
 | | [🎯 Advanced Patterns](docs/SPARC-ADVANCED-PATTERNS.md) | [🚀 Hello World SPARC](examples/hello-world-sparc.js) |
 | | [📊 Documentation Audit](docs/DOCUMENTATION_AUDIT_REPORT.md) | |
 
